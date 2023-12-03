@@ -6,7 +6,7 @@ const Student = ({ id, name, image, email}) => {
                     <img src={image} alt={name} />
                         <div>
                             <h4>{name}</h4>
-                            <p>Student id: {id}</p>
+                            <p>Student ID: {ID}</p>
                             <h3>{email}</h3>
                     </div>
         </div>
